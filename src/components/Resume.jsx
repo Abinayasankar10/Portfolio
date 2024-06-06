@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {PROJECTS} from "../constants";
-import resumeImg from "./assets/resume1.jpg";
+import resumeImg from "../assets/resume1.jpg";
 const Resume = () => {
   return (
     <><div>
