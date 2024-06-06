@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import {PROJECTS} from "../constants";
+import resumeImg from "./assets/resume1.jpg";
 const Resume = () => {
   return (
     <><div>
@@ -15,7 +16,7 @@ className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-te
                      initial={{opacity:0,x:-100}}
                      transition={{duration:0.5}}
                     className="w-full lg:w-1/4">
-                        <img  src="./src/assets/resume1.jpg"
+                        <img  src={resumeImg}
                         width={300}
                         height={300}
                         alt="https://drive.google.com/file/d/1d2j4ST_FkUa9IsglG2mhZxrmf1XSvOa1/view?usp=drive_link"
