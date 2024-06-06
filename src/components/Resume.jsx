@@ -8,9 +8,9 @@ const Resume = () => {
 whileInView={{opacity:1,y:0}}
 initial={{opacity:0,y:-100}}
 transition={{duration:0.5}}
-className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent my-20 text-center text-4xl">My Resume</motion.h2>
+className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent my-20 text-center ">My Resume</motion.h2>
 </div >
-<div className="mb-8 flex flex-wrap lg:justify-center">
+<div className="mb-8 mx-6 flex flex-wrap lg:justify-center">
 <motion.div 
                      whileInView={{opacity:1,x:0}}
                      initial={{opacity:0,x:-100}}
@@ -19,7 +19,7 @@ className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-te
                         <img  src={resumeImg}
                         width={300}
                         height={300}
-                        alt="https://drive.google.com/file/d/1d2j4ST_FkUa9IsglG2mhZxrmf1XSvOa1/view?usp=drive_link"
+                        alt="resume"
                         className="mb-6 rounded"/>
       </motion.div>
       <motion.div 
