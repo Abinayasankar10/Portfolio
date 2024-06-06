@@ -4,9 +4,12 @@
  const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4"> 
-        <h1 className="my-20 text-center text-4xl">About
+         <motion.h1 
+         whileInView={{opacity:1,y:0}}
+         initial={{opacity:0,y:-100}}
+         transition={{duration:1.5}} className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent my-20 text-center text-4xl">About
          <span className="text-neutral-500"> Me</span>
-       </h1>
+       </motion.h1>
        <div className="flex flex-wrap">
         <motion.div
           whileInView={{opacity:1,x:0}}

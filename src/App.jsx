@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Project from "./components/Projects";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
+import Resume from "./components/Resume";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
@@ -20,6 +21,7 @@ const App = () => {
        <Education/>
        <Experience/>
        <Project/>
+       <Resume/>
        <Contact/>
     </div>
   );
